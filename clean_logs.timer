@@ -1,0 +1,9 @@
+[Unit]
+Description=Exécute le nettoyage des journaux système toutes les heures
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

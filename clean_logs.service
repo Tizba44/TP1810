@@ -1,0 +1,5 @@
+[Unit]
+Description=Nettoyage des journaux système
+
+[Service]
+ExecStart=/usr/local/bin/TP1810/clean_logs.sh
